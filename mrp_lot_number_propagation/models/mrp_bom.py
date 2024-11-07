@@ -60,11 +60,11 @@ class MrpBom(models.Model):
         for line in self.bom_line_ids:
             if (
                 line.product_id.tracking == "serial"
+                and line.product_uom_id == uom_unit
                 and tools.float_compare(
                     line.product_qty, 1, precision_rounding=line.product_uom_id.rounding
                 )
                 == 0
-                and line.product_uom_id == uom_unit
             ):
                 return True
         return False
