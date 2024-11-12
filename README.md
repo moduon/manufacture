@@ -59,6 +59,7 @@ addon | version | maintainers | summary
 [mrp_workorder_lock_planning](mrp_workorder_lock_planning/) | 15.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Lock the planning of a MRP workorder to avoid rescheduling
 [mrp_workorder_lot_display](mrp_workorder_lot_display/) | 15.0.1.0.0 | [![grindtildeath](https://github.com/grindtildeath.png?size=30px)](https://github.com/grindtildeath) | Display lot number on workorders kanban
 [mrp_workorder_sequence](mrp_workorder_sequence/) | 15.0.1.2.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | adds sequence to production work orders.
+[purchase_mrp_distribution](purchase_mrp_distribution/) | 15.0.1.0.0 |  | Purchase MRP Distribution
 [quality_control_oca](quality_control_oca/) | 15.0.1.0.0 |  | Generic infrastructure for quality tests.
 [quality_control_stock_oca](quality_control_stock_oca/) | 15.0.1.0.0 |  | Quality control - Stock (OCA)
 [stock_picking_product_kit_helper](stock_picking_product_kit_helper/) | 15.0.0.1.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Set quanity in picking line based on product kit quantity
