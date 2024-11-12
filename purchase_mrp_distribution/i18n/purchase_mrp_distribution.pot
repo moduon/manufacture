@@ -6,8 +6,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-09 09:38+0000\n"
-"PO-Revision-Date: 2024-07-09 09:38+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39,6 +37,11 @@ msgstr ""
 #. module: purchase_mrp_distribution
 #: model_terms:ir.ui.view,arch_db:purchase_mrp_distribution.stock_move_distribution_wiz_form
 msgid "Cancel"
+msgstr ""
+
+#. module: purchase_mrp_distribution
+#: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz_line__company_id
+msgid "Company"
 msgstr ""
 
 #. module: purchase_mrp_distribution
@@ -120,8 +123,18 @@ msgid "Lines of wizard to distribute product qty to diferent products"
 msgstr ""
 
 #. module: purchase_mrp_distribution
+#: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz_line__lot_id
+msgid "Lot"
+msgstr ""
+
+#. module: purchase_mrp_distribution
 #: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz__move_id
 msgid "Move"
+msgstr ""
+
+#. module: purchase_mrp_distribution
+#: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz_line__package_id
+msgid "Package"
 msgstr ""
 
 #. module: purchase_mrp_distribution
