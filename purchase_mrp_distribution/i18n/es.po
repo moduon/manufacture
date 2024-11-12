@@ -46,6 +46,11 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #. module: purchase_mrp_distribution
+#: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz_line__company_id
+msgid "Company"
+msgstr ""
+
+#. module: purchase_mrp_distribution
 #: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz__create_uid
 #: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz_line__create_uid
 msgid "Created by"
@@ -126,9 +131,19 @@ msgstr ""
 "productos"
 
 #. module: purchase_mrp_distribution
+#: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz_line__lot_id
+msgid "Lot"
+msgstr ""
+
+#. module: purchase_mrp_distribution
 #: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz__move_id
 msgid "Move"
 msgstr "Movimiento"
+
+#. module: purchase_mrp_distribution
+#: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz_line__package_id
+msgid "Package"
+msgstr ""
 
 #. module: purchase_mrp_distribution
 #: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz_line__product_id
@@ -160,12 +175,12 @@ msgid ""
 "this quantity on assigned moves affects the product reservation, and should "
 "be done with care."
 msgstr ""
-"Ésta es la cantidad de productos desde un punto de vista de inventario. "
-"Para movimientos en el estado 'Realizado', ésta es la cantidad de productos "
-"que se movieron realmente. Para otros movimientos, ésta es la cantidad de "
-"producto que está planeado mover. Disminuyendo esta cantidad no se genera "
-"un pedido en espera. Cambiando esta cantidad en movimientos asignados, "
-"afecta la reserva de producto, y debe ser realizado con cuidado."
+"Ésta es la cantidad de productos desde un punto de vista de inventario. Para "
+"movimientos en el estado 'Realizado', ésta es la cantidad de productos que "
+"se movieron realmente. Para otros movimientos, ésta es la cantidad de "
+"producto que está planeado mover. Disminuyendo esta cantidad no se genera un "
+"pedido en espera. Cambiando esta cantidad en movimientos asignados, afecta "
+"la reserva de producto, y debe ser realizado con cuidado."
 
 #. module: purchase_mrp_distribution
 #: model:ir.model.fields,field_description:purchase_mrp_distribution.field_stock_move_distribution_wiz__move_uom_id
